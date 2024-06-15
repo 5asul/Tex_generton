@@ -1,7 +1,9 @@
-import 'package:Tex_generton/Pages/page5.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+import 'Explore.dart';
 
 class Page5 extends StatefulWidget {
   const Page5({super.key});
@@ -212,7 +214,7 @@ class _Page5State extends State<Page5> {
                   child: GestureDetector(
                     onTap: () {
                       Navigator.pushReplacement(context,
-                          MaterialPageRoute(builder: (context) => Page6()));},
+                          MaterialPageRoute(builder: (context) => Explpre()));},
                     child: Container(
 
                         decoration: BoxDecoration(
@@ -230,13 +232,13 @@ class _Page5State extends State<Page5> {
                         // transform: Matrix4.translationValues(0, 48, 0),
                         width: 50.11,
                         height: 50.11,
-                        child: IconButton(onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Page6()));},icon: Icon(Icons.g_translate,color: Color(0xFFB03CFC),size: 30,),)
+                        child: IconButton(onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Explpre()));},icon: Icon(Icons.g_translate,color: Color(0xFFB03CFC),size: 30,),)
                     ),
                   ),
                 ),
-                  TextButton(style:TextButton.styleFrom(backgroundColor: Colors.black,maximumSize: Size(900.0, 500.0)) ,onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Page6()));}, child:  Text("Language",style: TextStyle(fontSize: 17,color: Colors.white),)),
+                  TextButton(style:TextButton.styleFrom(backgroundColor: Colors.black,maximumSize: Size(900.0, 500.0)) ,onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Explpre()));}, child:  Text("Language",style: TextStyle(fontSize: 17,color: Colors.white),)),
                   Spacer(),
-                  IconButton(onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Page6()));}, icon: Icon(Icons.start,color:  Color(0xFF707070),size: 38,))
+                  IconButton(onPressed: (){Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=> Explpre()));}, icon: Icon(Icons.start,color:  Color(0xFF707070),size: 38,))
               ]),
             ),
             Container(

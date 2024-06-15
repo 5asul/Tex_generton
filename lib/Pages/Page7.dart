@@ -1,5 +1,5 @@
 // ignore: file_names
-import 'package:Tex_generton/Pages/Page6.dart';
+import 'package:Tex_generton/Pages/translateFilePage.dart';
 // import 'package:flutter/Pg6.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -226,7 +226,7 @@ class _MyWidgetState extends State<Page7> {
                 backgroundColor: Color(0xFFB03CFC),
                 onPressed: () {
                   Navigator.pushReplacement(
-                      context, MaterialPageRoute(builder: (context) => Pg6()));
+                      context, MaterialPageRoute(builder: (context) => Translate()));
                 },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
